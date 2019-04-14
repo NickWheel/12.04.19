@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Graphik LCG";
+  src: url("./fonts/Graphik-Medium-Web.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 1em/1.4 Arial;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+nav {
+  background-color: black;
+  border-bottom: #C4C4C4 1px solid;
+  position: relative;
+  z-index: 3;
+}
+
+nav .navigation {
+  max-width: 1920px;
+  margin: 0px 64px 0px 64px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 76px;
+}
+
+nav .menu {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .menu div, nav .menu a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .menu a {
+  text-decoration: none;
+  width: 185px;
+  height: 37px;
+  background: linear-gradient(286.69deg, #5C9FF9 -16.34%, #2869CA 97.2%), #C4C4C4;
+  border-radius: 3px;
+}
+
+nav .menu div p, nav .menu a p {
+  margin: 0;
+  font-family: 'Graphik LCG', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+.main {
+  background-color: black;
+  height: 764px;
+  z-index: 1;
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.main .laptop {
+  position: absolute;
+  top: 183px;
+  right: 333px;
+  z-index: 3;
+}
+
+.main .cookingGays {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.main .headline {
+  display: inline-block;
+  position: absolute;
+  right: 1044px;
+  top: 282px;
+  z-index: 4;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 467px;
+  float: left;
+}
+
+.main .headline p {
+  display: inline-block;
+  font-family: 'Graphik LCG', sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  float: left;
+  color: white;
+}
+
+.task h1 {
+  font-size: 45px;
+  line-height: 74px;
+  font-family: 'Graphik LCG', sans-serif;
+}
+
+.task p {
+  font-size: 18px;
+  line-height: 34px;
+  font-family: 'Graphik LCG', sans-serif;
+  color: #333333;
+}
+
+.decision {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.decision h1 {
+  font-size: 45px;
+  line-height: 74px;
+  font-family: 'Graphik LCG', sans-serif;
+}
+
+.decision p {
+  font-size: 18px;
+  line-height: 34px;
+  font-family: 'Graphik LCG', sans-serif;
+  color: #333333;
+  padding-bottom: 40px;
+}
+
+.conceptDesign h1 {
+  font-size: 45px;
+  line-height: 74px;
+  font-family: "Graphik LCG", bold, sans-serif;
+}
+
+.redEgg {
+  background-image: url("img/Ellipse.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.redEgg .head_redEgg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  /*flex-wrap: wrap;*/
+}
+
+.redEgg .head_redEgg .nav_rightBorder {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.redEgg .head_redEgg .nav_rightBorder li {
+  position: relative;
+  display: block;
+  text-align: right;
+  font-family: 'Graphik LCG', sans-serif;
+  color: #333333;
+  font-size: 32px;
+  line-height: 52px;
+}
+
+.redEgg .head_redEgg .nav_rightBorder li:after {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  width: 10%;
+  border-top: 5px solid #FD3300;
+  content: "";
+}
+
+.redEgg .bodyEgg {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.redEgg .footerEgg {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.redEgg .booking_ticket h1 {
+  font-size: 45px;
+  line-height: 74px;
+  font-family: 'Graphik LCG', sans-serif;
+}
+
+.redEgg .booking_ticket p {
+  font-family: Graphik LCG, sans-serif;
+  font-size: 18px;
+  line-height: 34px;
+  color: #333333;
+}
+
+.nav_beforeTable {
+  margin-top: 173px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.nav_beforeTable .imgGears, .nav_beforeTable .imgTouch, .nav_beforeTable .imgDashboard {
+  display: block;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=styles.css.map */
