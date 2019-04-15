@@ -46,10 +46,23 @@ nav {
             border-radius: 3px;
         }
         div p, a p {
-            margin: 0;
-            font-family: 'Graphik LCG', sans-serif;
-            font-size: 14px;
-            color: white;
+            
+        }
+        div {
+            p {
+                margin: 0;
+                font-family: 'Graphik LCG', sans-serif;
+                font-size: 14px;
+                color: white;
+            }
+        }
+        a {
+            p {
+                margin: 0;
+                font-family: 'Graphik LCG', sans-serif;
+                font-size: 14px;
+                color: white;
+            }
         }
     }
 }
